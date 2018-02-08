@@ -1,0 +1,18 @@
+Analog-to-digital converter (voltmeter) from USART
+
+1.Multi-channel voltmeter:
+The device measure the voltage in the range of 0-1V with the precision of 1 mV from different sources (4 channels ADC input: ADC7, ADC6, ADC5, ADC4).
+Measurements carry with a period of 1 ms with averages of 16 measurements.
+Result display on a 7 segment displays.
+When the corresponding channel is switched on, the LED corresponding to this channel is illuminating too.
+
+The first button is the cyclic mode of switch the input channels of the ADC.
+The second button is the automatic mode of switch the input channels of the ADC with period 1s.
+
+2. USART:
+Control device is possible from the a computer.
+From a computer there is a possibility to switch the input channel of the ADC and carry out measurements and transmit to the computer.
+The data are transmitted to a computer containing the channel number and voltage.
+
+
+The code was written in Atmel Studio, a code tested in the program Proteus.
